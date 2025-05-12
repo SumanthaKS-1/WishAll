@@ -1,5 +1,5 @@
 Overview
-WISHALL is a simple e-commerce application built using Flutter. The app allows users to browse products, search for items, view product details, and add items to the shopping cart. It features a bottom navigation bar with three sections: Home, Search, and Cart.
+NeoCart is a simple e-commerce application built using Flutter. The app allows users to browse products, search for items, view product details, and add items to the shopping cart. It features a bottom navigation bar with three sections: Home, Search, and Cart.
 
 Features
 Home Page: Displays a grid of products with images and names.
