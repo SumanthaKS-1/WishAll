@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(WishAllApp());
+void main() => runApp(NeoCartApp());
 
-class WishAllApp extends StatelessWidget {
+class NeoCartApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'WISHALL',
+      title: 'NeoCart',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -79,11 +79,11 @@ class HomePage extends StatelessWidget {
     },
     {
       'name': 'Smart Watch',
-      'image': 'https://images.pexels.com/photos/2774061/pexels-photo-2774061.jpeg'
+      'image': 'https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg' // Direct image
     },
     {
       'name': 'Laptop Bag',
-      'image': 'https://images.pexels.com/photos/19090/pexels-photo.jpg'
+      'image': 'https://images.pexels.com/photos/12743405/pexels-photo-12743405.jpeg' // Direct image
     },
     {
       'name': 'Sneakers',
@@ -95,7 +95,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('WISHALL'),
+        title: Text('NeoCart'),
         actions: [
           IconButton(
             icon: Icon(Icons.shopping_cart),
@@ -159,6 +159,8 @@ class ProductCard extends StatelessWidget {
                 child: Image.network(
                   imageUrl,
                   fit: BoxFit.cover,
+                  width: double.infinity,
+                  height: double.infinity,
                 ),
               ),
             ),
@@ -191,7 +193,12 @@ class ProductDetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Image.network(imageUrl),
+            Image.network(
+              imageUrl,
+              fit: BoxFit.cover,
+              width: double.infinity,
+              height: 300, // or any height you prefer
+            ),
             SizedBox(height: 20),
             Text(
               name,
@@ -231,11 +238,11 @@ class _SearchPageState extends State<SearchPage> {
     },
     {
       'name': 'Smart Watch',
-      'image': 'https://images.pexels.com/photos/2774061/pexels-photo-2774061.jpeg'
+      'image': 'https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg' // Direct image
     },
     {
       'name': 'Laptop Bag',
-      'image': 'https://images.pexels.com/photos/19090/pexels-photo.jpg'
+      'image': 'https://images.pexels.com/photos/12743405/pexels-photo-12743405.jpeg' // Direct image
     },
     {
       'name': 'Sneakers',
