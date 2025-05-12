@@ -1,16 +1,46 @@
-# wishall
+Overview
+WISHALL is a simple e-commerce application built using Flutter. The app allows users to browse products, search for items, view product details, and add items to the shopping cart. It features a bottom navigation bar with three sections: Home, Search, and Cart.
 
-A new Flutter project.
+Features
+Home Page: Displays a grid of products with images and names.
 
-## Getting Started
+Search Page: Allows users to search for products by name.
 
-This project is a starting point for a Flutter application.
+Cart Page: Shows the items added to the cart, with the ability to remove items.
 
-A few resources to get you started if this is your first Flutter project:
+Product Details: Tapping on a product takes you to a detailed page where you can add it to the cart.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Getting Started
+To run this app on your local machine, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Prerequisites
+Flutter SDK installed on your system.
+
+An IDE (like Android Studio or VS Code) with Flutter plugin installed.
+
+Installation
+Clone this repository:
+
+git clone <repository-url>
+Navigate to the project directory:
+
+cd wishall
+Install the required dependencies:
+
+flutter pub get
+Run the app:
+
+flutter run
+Project Structure
+main.dart: The entry point of the app that sets up the navigation and routes.
+
+HomePage: Displays a list of products in a grid.
+
+SearchPage: Allows searching for products by name.
+
+CartPage: Displays the cart with options to remove items.
+
+ProductDetailPage: Shows detailed information about a product.
+
+Contributing
+Feel free to fork this project and contribute by submitting pull requests.
