@@ -11,26 +11,26 @@ Cart Page: Shows the items added to the cart, with the ability to remove items.
 Product Details: Tapping on a product takes you to a detailed page where you can add it to the cart.
 
 Getting Started
-To run this app on your local machine, follow these steps:
+- To run this app on your local machine, follow these steps:
 
-Prerequisites
+- Prerequisites
 Flutter SDK installed on your system.
 
-An IDE (like Android Studio or VS Code) with Flutter plugin installed.
+- An IDE (like Android Studio or VS Code) with Flutter plugin installed.
 
-Installation
+- Installation
 Clone this repository:
 
-git clone <repository-url>
+- git clone <repository-url>
 Navigate to the project directory:
 
-cd wishall
+- cd wishall
 Install the required dependencies:
 
-flutter pub get
+- flutter pub get
 Run the app:
 
-flutter run
+- flutter run
 Project Structure
 main.dart: The entry point of the app that sets up the navigation and routes.
 
